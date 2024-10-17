@@ -1,0 +1,9 @@
+.ergonomics__buttons-control {
+  position: absolute;
+  top: 520px;
+  left: 310px;
+  width: 474px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+}
