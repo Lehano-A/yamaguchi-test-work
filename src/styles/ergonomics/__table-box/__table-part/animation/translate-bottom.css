@@ -1,0 +1,15 @@
+@import url('../../../../variables/variables.css');
+
+.translate-bottom {
+  animation: translate-bottom var(--table-animation-params);
+}
+
+@keyframes translate-bottom {
+  from {
+    transform: translateY(var(--translate-distance));
+  }
+
+  to {
+    transform: translateY(0px);
+  }
+}

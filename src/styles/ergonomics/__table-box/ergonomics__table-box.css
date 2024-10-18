@@ -1,6 +1,6 @@
 .ergonomics__table-box {
   position: relative;
+  display: flex;
   max-width: 1070px;
   width: 100%;
-  display: flex;
 }

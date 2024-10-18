@@ -1,0 +1,14 @@
+@import url('../../../../variables/table-animation.css');
+
+.translate-top {
+  animation: translate-top var(--table-animation-params);
+}
+
+@keyframes translate-top {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(var(--translate-distance));
+  }
+}
