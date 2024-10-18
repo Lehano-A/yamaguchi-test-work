@@ -2,14 +2,33 @@
   "name": "yamaguchi-test-work",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
   "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack serve --open --mode development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "normalize.css": "^8.0.1"
+    "@babel/core": "^7.25.8",
+    "normalize.css": "^8.0.1",
+    "postcss-preset-env": "^10.0.7"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.25.8",
+    "babel-loader": "^9.2.1",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^12.0.2",
+    "css-loader": "^7.1.2",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.2",
+    "mini-css-extract-plugin": "^2.9.1",
+    "postcss": "^8.4.47",
+    "postcss-loader": "^8.1.1",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
   }
 }

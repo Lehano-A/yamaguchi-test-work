@@ -1,0 +1,10 @@
+* {
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+body {
+  font-family: 'Ubuntu Light', Arial, Helvetica, sans-serif;
+  min-width: 320px;
+
+}
