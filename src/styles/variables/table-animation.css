@@ -1,4 +1,20 @@
 :root {
   --table-animation-params: 2s forwards;
-  --translate-distance: -60px;
+  --translate-distance: -7%;
+}
+
+@media screen and (min-width: 320px) {
+  .ergonomics__table-part,
+  .translate-top,
+  .translate-bottom {
+    --scale: 1.7;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .ergonomics__table-part,
+  .translate-top,
+  .translate-bottom {
+    --scale: 1.56;
+  }
 }

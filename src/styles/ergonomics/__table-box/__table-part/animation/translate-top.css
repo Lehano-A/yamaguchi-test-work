@@ -6,9 +6,9 @@
 
 @keyframes translate-top {
   from {
-    transform: translateY(0px);
+    transform: translateY(0px) scale(var(--scale));
   }
   to {
-    transform: translateY(var(--translate-distance));
+    transform: translateY(var(--translate-distance)) scale(var(--scale));
   }
 }

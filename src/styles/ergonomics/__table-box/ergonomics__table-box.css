@@ -1,6 +1,29 @@
 .ergonomics__table-box {
   position: relative;
-  display: flex;
-  max-width: 1070px;
-  width: 100%;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 320px) {
+  .ergonomics__table-box {
+    justify-self: center;
+    grid-row: 3;
+    max-width: 300px;
+    width: 100%;
+    height: 340px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .ergonomics__table-box {
+    grid-column: 1;
+    grid-row: 1/5;
+    height: 100%;
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .ergonomics__table-box {
+    height: 827px;
+  }
 }

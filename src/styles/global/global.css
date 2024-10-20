@@ -5,6 +5,16 @@
 
 body {
   font-family: 'Ubuntu Light', Arial, Helvetica, sans-serif;
-  min-width: 320px;
+}
 
+main {
+  display: flex;
+  justify-content: center;
+  margin: 13px 12px 0;
+}
+
+@media screen and (min-width: 1280px) {
+  main {
+    margin: 13px 24px 0 12px;
+  }
 }

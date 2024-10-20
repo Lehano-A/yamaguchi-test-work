@@ -9,12 +9,11 @@
 @import url('./styles/ergonomics/__table-box/__table-part/ergonomics__table-part.css');
 @import url('./styles/ergonomics/__table-box/__buttons-control/ergonomics__buttons-control.css');
 @import url('./styles/ergonomics/__table-box/__buttons-control/__button/ergonomics__button.css');
-@import url('./styles/ergonomics/__table-box/__buttons-control/__button/_top.css');
-@import url('./styles/ergonomics/__table-box/__buttons-control/__button/_bottom.css');
 
-@import url('./styles/ergonomics/__text-block/ergonomics__text-block.css');
-@import url('./styles/ergonomics/__text-block/__title/ergonomics__title.css');
-@import url('./styles/ergonomics/__text-block/__text/ergonomics__text.css');
+@import url('./styles/ergonomics/__title/ergonomics__title.css');
+@import url('./styles/ergonomics/__text/ergonomics__text.css');
+@import url('./styles/ergonomics/__text/_part-one.css');
+@import url('./styles/ergonomics/__text/_part-two.css');
 
 @import url('./styles/ergonomics/__table-box/__table-part/animation/translate-top.css');
 @import url('./styles/ergonomics/__table-box/__table-part/animation/translate-bottom.css');

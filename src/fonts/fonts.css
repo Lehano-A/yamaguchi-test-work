@@ -6,3 +6,12 @@
     url('./Ubuntu-Light.woff') format('woff');
   font-weight: normal;
 }
+
+@font-face {
+  font-family: 'Bebas Neue Regular';
+  src:
+    local('Bebas Neue Regular'),
+    url('./Bebas-Neue-Regular.woff2') format('woff2'),
+    url('./Bebas-Neue-Regular.woff') format('woff');
+  font-weight: normal;
+}

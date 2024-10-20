@@ -1,6 +1,6 @@
 const tablePartTop = document.querySelector('#tablePartTop'); // верхняя часть стола
-const buttonTop = document.querySelector('.ergonomics__button--top'); // кнопка "вверх"
-const buttonBottom = document.querySelector('.ergonomics__button--bottom'); // кнопка "вниз"
+const buttonTop = document.querySelector('#buttonTop'); // кнопка "вверх"
+const buttonBottom = document.querySelector('#buttonBottom'); // кнопка "вниз"
 
 let isAnimating = false; // происходит ли сейчас анимация?
 

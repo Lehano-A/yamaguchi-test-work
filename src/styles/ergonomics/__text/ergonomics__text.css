@@ -1,0 +1,29 @@
+.ergonomics__text {
+  line-height: 1.68;
+  color: #181818;
+  margin: 0;
+}
+
+@media screen and (min-width: 320px) {
+  .ergonomics__text {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .ergonomics__text {
+    margin-left: 2px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .ergonomics__text {
+    font-size: 1.9rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .ergonomics__text {
+    font-size: 2.2rem;
+  }
+}

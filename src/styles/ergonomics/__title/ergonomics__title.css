@@ -1,0 +1,46 @@
+.ergonomics__title {
+  font-weight: 100;
+  word-break: keep-all;
+  color: #0b64fe;
+  line-height: 1;
+}
+
+@media screen and (min-width: 320px) {
+  .ergonomics__title {
+    font-family: 'Bebas Neue Regular';
+    font-weight: 600;
+    font-size: 3.8rem;
+    width: 230px;
+    margin-top: 0;
+    letter-spacing: 0.35px;
+    grid-row: 1;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .ergonomics__title {
+    grid-column: 2;
+    grid-row: 1;
+    font-family: Ubuntu Light;
+    font-weight: 100;
+    letter-spacing: 0;
+    width: 262px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .ergonomics__title {
+    font-size: 4.5rem;
+    font-weight: 100;
+    width: 350px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .ergonomics__title {
+    font-size: 6.2rem;
+    width: 430px;
+    letter-spacing: 0;
+    margin-bottom: 40px;
+  }
+}

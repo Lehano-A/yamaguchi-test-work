@@ -1,0 +1,12 @@
+@media screen and (min-width: 320px) {
+  .ergonomics__text--part-one {
+    grid-row: 2;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .ergonomics__text--part-one {
+    grid-column: 2;
+    grid-row: 2;
+  }
+}
