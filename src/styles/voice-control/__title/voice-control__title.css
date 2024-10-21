@@ -10,3 +10,26 @@
     grid-row: 1;
   }
 }
+
+@media screen and (min-width: 768px) {
+  .voice-control__title {
+    grid-column: 1;
+    grid-row: 1;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .voice-control__title {
+    font-size: 4rem;
+    width: 280px;
+    line-height: 1.23;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .voice-control__title {
+    font-size: 5.6rem;
+    width: 400px;
+    margin-bottom: 55px;
+  }
+}

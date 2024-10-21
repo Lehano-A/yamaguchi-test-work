@@ -1,2 +1,19 @@
-.voice-control__box-text {
+@media screen and (min-width: 768px) {
+  .voice-control__box-text {
+    max-width: 380px;
+    grid-column: 1;
+    grid-row: 2;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .voice-control__box-text {
+    max-width: 425px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .voice-control__box-text {
+    max-width: 520px;
+  }
 }
