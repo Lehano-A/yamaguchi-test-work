@@ -1,0 +1,11 @@
+.voice-control__text {
+  font-size: 1.6rem;
+  font-weight: 100;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.voice-control__text:first-child {
+  grid-row: 2;
+  margin-bottom: 20px;
+}

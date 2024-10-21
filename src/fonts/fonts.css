@@ -15,3 +15,22 @@
     url('./Bebas-Neue-Regular.woff') format('woff');
   font-weight: normal;
 }
+
+@font-face {
+  font-family: 'Montserrat Light';
+  src:
+    local('Montserrat Light'),
+    url('./Montserrat-Light.woff2') format('woff2'),
+    url('./Montserrat-Light.woff') format('woff');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat Black';
+  src:
+    local('Montserrat Black'),
+    url('./Montserrat-Black.woff2') format('woff2'),
+    url('./Montserrat-Black.woff') format('woff');
+  font-weight: normal;
+}
+

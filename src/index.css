@@ -17,3 +17,18 @@
 
 @import url('./styles/ergonomics/__table-box/__table-part/animation/translate-top.css');
 @import url('./styles/ergonomics/__table-box/__table-part/animation/translate-bottom.css');
+
+@import url('./styles/voice-control/voice-control.css');
+
+@import url('./styles/voice-control/__title/voice-control__title.css');
+
+@import url('./styles/voice-control/__box-text/voice-control__box-text.css');
+@import url('./styles/voice-control/__text/voice-control__text.css');
+
+@import url('./styles/voice-control/__hiding-wrapper/voice-control__hiding-wrapper.css');
+@import url('./styles/voice-control/__model/voice-control__model.css');
+@import url('./styles/voice-control/__box-model/voice-control__box-model.css');
+@import url('./styles/voice-control/__black-hole/voice-control__black-hole.css');
+
+@import url('./styles/voice-control/__chat-interface/voice-control__chat-interface.css');
+@import url('./styles/voice-control/__slogan/voice-control__slogan.css');

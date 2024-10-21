@@ -1,0 +1,11 @@
+.voice-control__box-model {
+  position: relative;
+  display: flex;
+}
+
+@media screen and (min-width: 320px) {
+  .voice-control__box-model {
+    width: 100%;
+    justify-content: center;
+  }
+}

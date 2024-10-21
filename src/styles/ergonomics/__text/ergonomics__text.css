@@ -1,6 +1,8 @@
+@import url('../../variables/variables.css');
+
 .ergonomics__text {
   line-height: 1.68;
-  color: #181818;
+  color: var(--black-800);
   margin: 0;
 }
 

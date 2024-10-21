@@ -1,0 +1,23 @@
+@import url('../variables/variables.css');
+
+.voice-control {
+  display: grid;
+  justify-content: center;
+  background-color: var(--black-800);
+  color: #fff;
+  font-family: 'Montserrat Light', Arial, Helvetica, sans-serif;
+  overflow: hidden;
+  padding: 17px 0;
+}
+
+.voice-control > :nth-child(-n + 2) {
+  margin: 0 17px;
+}
+
+@media screen and (min-width: 320px) {
+  .voice-control {
+    grid-template-columns: minmax(279px, 470px);
+    grid-template-rows: repeat(5, auto);
+    justify-content: center;
+  }
+}

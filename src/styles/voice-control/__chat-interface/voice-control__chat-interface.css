@@ -1,0 +1,8 @@
+.voice-control__chat-interface {
+  width: 100%;
+  height: 400px;
+  object-fit: contain;
+  object-position: 10px 60px;
+  grid-row: 4;
+  transform: scale(1.3);
+}

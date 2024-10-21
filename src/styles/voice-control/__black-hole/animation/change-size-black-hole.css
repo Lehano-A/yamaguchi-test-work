@@ -1,0 +1,17 @@
+@keyframes change-size-black-hole {
+  0% {
+    width: 0px;
+    height: 0px;
+    bottom: -25px;
+  }
+
+  30% {
+    width: 290px;
+    height: 61px;
+  }
+
+  100% {
+    width: 194px;
+    bottom: 10px;
+  }
+}

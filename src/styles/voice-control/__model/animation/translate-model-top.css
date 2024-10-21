@@ -1,0 +1,8 @@
+@keyframes translate-model-top {
+  from {
+    bottom: -757px;
+  }
+  to {
+    bottom: 30px;
+  }
+}

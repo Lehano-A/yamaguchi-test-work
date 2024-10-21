@@ -1,0 +1,40 @@
+.voice-control__slogan {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Montserrat Black', Arial, Helvetica, sans-serif;
+  margin-top: 54px;
+  line-height: 1.21;
+  --span-font-family: 'Montserrat Light', Arial, Helvetica, sans-serif;
+  grid-row: 5;
+  justify-self: center;
+}
+
+#say {
+  font-size: 3.865rem;
+}
+#say::after {
+  content: ':';
+  font-family: var(--span-font-family);
+}
+
+#ok {
+  font-size: 6.142rem;
+  position: relative;
+  left: -6px;
+}
+#ok::before {
+  content: '«';
+  font-family: var(--span-font-family);
+}
+#ok::after {
+  content: ',';
+  font-family: var(--span-font-family);
+}
+
+#yamaguchi {
+  font-size: 4.986rem;
+}
+#yamaguchi::after {
+  content: '»';
+  font-family: var(--span-font-family);
+}

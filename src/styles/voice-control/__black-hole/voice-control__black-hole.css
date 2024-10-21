@@ -1,0 +1,12 @@
+@import url('./animation/change-size-black-hole.css');
+
+.voice-control__black-hole {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: block;
+  height: 61px;
+  background-color: black;
+  border-radius: 50%;
+  animation: change-size-black-hole 4s ease-out forwards;
+}

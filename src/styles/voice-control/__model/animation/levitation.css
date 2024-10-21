@@ -1,0 +1,9 @@
+@keyframes levitation {
+  from {
+    bottom: 30px;
+  }
+
+  to {
+    bottom: 5px;
+  }
+}
